@@ -1,7 +1,7 @@
 #include "Arrays.hpp"
 
 template<int SIZE>
-void xtremeMaths(array<int, SIZE>& array);
+void xtremeMaths(array<int, SIZE>& arr);
 
 int main()
 {
