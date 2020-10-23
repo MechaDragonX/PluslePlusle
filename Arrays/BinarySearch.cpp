@@ -6,9 +6,8 @@ void binSearch(array<int, SIZE>& arr, int target);
 int main()
 {
     array<int, 5> arr { 1, 2, 3, 4, 5 };
-    int target = 2;
-    
-    cout << binSearch(arr, 2) << endl;
+    int result = binSearch(arr, 2);
+    cout << result << endl;
 }
 template<int SIZE>
 int binSearch(array<int, SIZE>& arr, int target)
